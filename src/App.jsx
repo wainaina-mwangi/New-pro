@@ -1,14 +1,10 @@
-
-
+import React from 'react'
+import ReactCard from './components/ReactCard'
 
 function App() {
-  function handleClick() {
-    alert("you have clicked me");
-  }
   return (
     <>
-   <button onClick={handleClick}>Click Me</button>
-      
+    <ReactCard/>
     </>
   )
 }
