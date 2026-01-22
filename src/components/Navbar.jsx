@@ -18,6 +18,9 @@ function Navbar() {
         <ul className='flex space-x-8 text-sm font-medium'>
           <li className='cursor-pointer text-gray-400 hover:text-blue-400 transition-colors'>Home</li>
           <li className='cursor-pointer text-gray-400 hover:text-blue-400 transition-colors'>About</li>
+          <li className='cursor-pointer text-gray-400 hover:text-blue-400 transition-colors'>Docs</li>
+          <li className='cursor-pointer text-gray-400 hover:text-blue-400 transition-colors'>Blog</li>
+          <li className='cursor-pointer text-gray-400 hover:text-blue-400 transition-colors'>Community</li>
           <li className='cursor-pointer text-gray-400 hover:text-blue-400 transition-colors'>Contact</li>
         </ul>
       </nav>
