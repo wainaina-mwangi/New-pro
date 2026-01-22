@@ -1,2 +1,41 @@
 @import "tailwindcss";
 
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 30px;
+
+    
+    
+    
+}
+
+.nav-list{
+    display: flex;
+    font-size: 20px;
+    color: azure;
+    font-weight: bold;
+   
+}
+
+
+.nav-list-item{
+    margin-left: 20px;
+}
+
+.nav-list-item:hover{
+    text-decoration: dotted;
+    color: blue;
+    cursor: pointer;
+    border-radius: 20px;
+    /* padding: 5px 10px; */
+}
+
+
+.logo{
+    color: bisque;
+    font-size: 20px;
+    font-weight: bold;
+}

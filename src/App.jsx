@@ -1,10 +1,13 @@
 import React from 'react'
-import ReactCard from './components/ReactCard'
+import Rcards from './components/Rcards'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <>
-    <ReactCard/>
+    <Navbar/>
+    <Rcards/>
+    
     </>
   )
 }
