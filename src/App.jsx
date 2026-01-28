@@ -18,6 +18,11 @@ function App() {
     task ="Learning React"
     version="version 19 "
     />
+    <Props 
+    name ="Sandra Kaunda"
+    task ="Learning React"
+    version="version 18 "
+    />
     <Rcards/>
     <Header/>
     <Entry/>
