@@ -1,10 +1,18 @@
 import React from 'react'
 
-function Props(props) {
-    console.log(props);
+function Props({name,task,version}) {
+
     
   return (
-    <div>Props</div>
+    <div>
+        <h1> {name}</h1>
+        <p>{task}</p>
+        <p>{version}</p>
+    </div>
+    
+    
+    
+    
   )
 }
 
