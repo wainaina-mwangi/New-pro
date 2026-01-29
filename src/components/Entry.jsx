@@ -6,7 +6,7 @@ function Entry() {
     let timeOfDay;
 
     if(hours < 12){
-        timeOfDay = 'good mporning'
+        timeOfDay = 'good morning'
     }else if(hours >=12 && hours >= 17){
         timeOfDay = "goood evening"
     }else {
