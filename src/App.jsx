@@ -3,6 +3,7 @@ import Rcards from './components/Rcards'
 import Navbar from './components/Navbar'
 import Props from './components/Props'
 import Joke from './components/Joke'
+import Map from './components/Map'
 import Header from './components/Header'
 import Entry from './components/Entry'
 import CopyRight from './components/CopyRight'
@@ -46,6 +47,7 @@ function App() {
     isPun={true}
 
     />
+    <Map/>
     <Rcards/>
     <Header/>
     <Entry/>
