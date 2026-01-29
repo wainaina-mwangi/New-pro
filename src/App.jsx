@@ -27,14 +27,23 @@ function App() {
     <Joke 
     setup="Why did the React component lose its job"
     punchline="Because it didn't have any 'props' to show for its work!"
+    // non-strings props
+    upVotes={10}
+    isPun={true}
     />
     <Joke 
      setup="How do you comfort a JavaScript bug?"
     punchline="You console it!"
+    // non-strings props
+    upVotes={10}
+    isPun={true}
     />
     <Joke 
      setup="Why was the developer unhappy at their new job?"
      punchline="They wanted a 'View' but the boss only gave them 'React-ion"
+     // non-strings props
+    upVotes={10}
+    isPun={true}
 
     />
     <Rcards/>
