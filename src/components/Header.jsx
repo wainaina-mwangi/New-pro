@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGlobe } from "react-icons/fa";
+import { FaGlobe, FaLocationArrow } from "react-icons/fa";
 import MountainData from "../mountains.json";
 
 function Header() {
@@ -32,8 +32,8 @@ function Header() {
             {/* Content Section */}
             <div className="flex flex-col gap-2 p-4 md:p-0">
               <div className="flex items-center gap-4">
-                <span className="uppercase tracking-[0.3em] text-xs font-semibold text-gray-600">
-                  📍 {mountain.location.split(',')[0]}
+                <span className="flex gap-2 uppercase tracking-[0.3em] text-xs font-semibold text-gray-600">
+                  <FaLocationArrow className=" "/> {mountain.location.split(',')[0]}
                 </span>
                 <a href="#" className="text-gray-400 underline text-xs hover:text-gray-600">
                   View on Google Maps
