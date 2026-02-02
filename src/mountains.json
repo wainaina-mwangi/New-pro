@@ -4,36 +4,30 @@
       "name": "Mount Everest",
       "location": "Mahalangur Himal, Himalayas (Nepal/China)",
       "date_of_first_ascent": "1953-05-29",
-      "image_url": "images/mount_everest.jpg",
+      "image_url": "https://plus.unsplash.com/premium_photo-1672115680958-54438df0ab82?q=80&w=1484&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "The highest mountain on Earth above sea level, reaching an elevation of 8,848.86 meters."
     },
     {
       "name": "Mount Fuji",
       "location": "Honshu, Japan",
       "peak_season": "July to September",
-      "image_url": "images/mount_fuji.jpg",
+      "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "An active stratovolcano and a sacred symbol of Japan, famous for its exceptionally symmetrical cone."
     },
     {
       "name": "Matterhorn",
       "location": "Pennine Alps (Switzerland/Italy)",
       "date_of_first_ascent": "1865-07-14",
-      "image_url": "images/matterhorn.jpg",
+      "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "A pyramid-shaped peak in the Alps, known as one of the deadliest peaks for climbers in the 19th century."
     },
     {
       "name": "Mount Kilimanjaro",
       "location": "Tanzania",
       "date_of_first_ascent": "1889-10-06",
-      "image_url": "images/kilimanjaro.jpg",
+      "image_url": "https://plus.unsplash.com/premium_photo-1676218968741-8179dd7e533f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "description": "The highest mountain in Africa and the highest single free-standing mountain in the world."
-    },
-    {
-      "name": "Denali",
-      "location": "Alaska, USA",
-      "date_of_first_ascent": "1913-06-07",
-      "image_url": "images/denali.jpg",
-      "description": "The highest mountain peak in North America, formerly known as Mount McKinley."
     }
+    
   ]
 }

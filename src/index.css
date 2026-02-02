@@ -71,18 +71,3 @@ header > h1{
  font-size: 20PX;
  font-family: inter;
 }
-
-.Container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    /* flex-direction: column; */
-}
-
-.mountain-card{
-    gap: 2;
-    margin-top: 10px;
-    padding: 10px 20px;
-    /* background: #F55A5A; */
-}
