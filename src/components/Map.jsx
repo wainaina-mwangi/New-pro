@@ -8,7 +8,7 @@ function Map() {
   });
 
   const Capitalized =names.map(function(name){
-    return name[0].toUpperCase() +  name.slice(1)
+    return names[0].toUpperCase() +  name.slice(1)
   });
 
   console.log(names);

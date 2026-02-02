@@ -1,0 +1,39 @@
+{
+  "mountains": [
+    {
+      "name": "Mount Everest",
+      "location": "Mahalangur Himal, Himalayas (Nepal/China)",
+      "date_of_first_ascent": "1953-05-29",
+      "image_url": "images/mount_everest.jpg",
+      "description": "The highest mountain on Earth above sea level, reaching an elevation of 8,848.86 meters."
+    },
+    {
+      "name": "Mount Fuji",
+      "location": "Honshu, Japan",
+      "peak_season": "July to September",
+      "image_url": "images/mount_fuji.jpg",
+      "description": "An active stratovolcano and a sacred symbol of Japan, famous for its exceptionally symmetrical cone."
+    },
+    {
+      "name": "Matterhorn",
+      "location": "Pennine Alps (Switzerland/Italy)",
+      "date_of_first_ascent": "1865-07-14",
+      "image_url": "images/matterhorn.jpg",
+      "description": "A pyramid-shaped peak in the Alps, known as one of the deadliest peaks for climbers in the 19th century."
+    },
+    {
+      "name": "Mount Kilimanjaro",
+      "location": "Tanzania",
+      "date_of_first_ascent": "1889-10-06",
+      "image_url": "images/kilimanjaro.jpg",
+      "description": "The highest mountain in Africa and the highest single free-standing mountain in the world."
+    },
+    {
+      "name": "Denali",
+      "location": "Alaska, USA",
+      "date_of_first_ascent": "1913-06-07",
+      "image_url": "images/denali.jpg",
+      "description": "The highest mountain peak in North America, formerly known as Mount McKinley."
+    }
+  ]
+}
