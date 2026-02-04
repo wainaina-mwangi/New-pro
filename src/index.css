@@ -71,3 +71,30 @@ header > h1{
  font-size: 20PX;
  font-family: inter;
 }
+
+
+main{
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   gap: 2rem;
+}
+
+
+main > h1{
+    display: flex;
+}
+
+main > h2{
+    background-color: blue;
+    color: #FFFF;
+    padding: 10px 20px;
+    font-size: 2rem;
+}
+
+main >button{
+    background-color: #F55A5A;
+    color: #FFFF;
+    padding: 10px 20px;
+    font-size: 2rem;
+}

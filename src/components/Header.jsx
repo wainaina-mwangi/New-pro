@@ -6,7 +6,7 @@ function Header() {
   const mountainArray = MountainData.mountains;
 
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className="bg-gray-50 min-h-screen mt-5">
       {/* Header Bar */}
       <header className="flex items-center justify-center gap-2 bg-[#F55A5A] p-4 text-white shadow-md">
         <FaGlobe className="text-2xl" />
@@ -14,7 +14,7 @@ function Header() {
       </header>
 
       {/* Main Container */}
-      <main className="max-w-3xl mx-auto p-8 flex flex-col gap-10">
+      <main className="max-w-3xl mx-auto p-8 flex flex-col gap-10 bg-green-300" >
         {mountainArray.map((mountain, index) => (
           <div 
             key={index} 

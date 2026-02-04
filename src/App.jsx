@@ -7,6 +7,7 @@ import Map from './components/Map'
 import LanguageList from './components/LanguageList'
 import Header from './components/Header'
 import Entry from './components/Entry'
+import State from './components/State'
 import CopyRight from './components/CopyRight'
 import { useState, useEffect } from 'react'
 
@@ -53,6 +54,7 @@ function App() {
     <Rcards/>
     <Header/>
     <Entry/>
+    <State/>
     <CopyRight/>
     
     </>
