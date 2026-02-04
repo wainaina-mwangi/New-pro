@@ -9,11 +9,15 @@ function State() {
 
   function add() {
     setCount(count + 1);
+    //using a callback function
+    // setCount(prevCount=>prevCount + 1)
   }
   
 
   function sub() {
     setCount(count - 1);
+    //using a callback function
+    // setCount(prevCount=>prevCount - 1)
   }
 
 //   or;
