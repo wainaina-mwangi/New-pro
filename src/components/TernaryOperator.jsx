@@ -17,6 +17,8 @@ function TernaryOperator() {
   
   return (
     <div>{answer}</div>
+    //writing ternary inside jsx
+    // <div>{isGoingOut ? "yes": "no"}</div>
   )
 }
 
