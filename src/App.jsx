@@ -8,8 +8,10 @@ import LanguageList from './components/LanguageList'
 import Header from './components/Header'
 import Entry from './components/Entry'
 import State from './components/State'
+import TernaryOperator from "./components/TernaryOperator";
 import CopyRight from './components/CopyRight'
 import { useState, useEffect } from 'react'
+
 
 function App() {
 
@@ -55,6 +57,7 @@ function App() {
     <Header/>
     <Entry/>
     <State/>
+    <TernaryOperator/>
     <CopyRight/>
     
     </>
