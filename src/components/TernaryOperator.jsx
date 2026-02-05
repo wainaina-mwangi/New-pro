@@ -11,6 +11,9 @@ function TernaryOperator() {
     answer ="no"
   }
 
+  // using ternart operator
+  // let answer = isGoingOut==true ? "yes" : "no"
+
   
   return (
     <div>{answer}</div>
