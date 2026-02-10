@@ -7,7 +7,9 @@ const allFavouriteThings = ["English","maths","Biology","Chemistry"]
 const thingsElement = myFavouriteThings.map(thing=> <p key={thing}>{thing}</p>)
 
 function addFavouriteThing() {
-    setMyFavouriteThings(prevFavThings =>[...prevFavThings,"test"])
+    setMyFavouriteThings(prevFavThings =>[...prevFavThings,allFavouriteThings.indexOf(0)])
+
+    
 }
 
   return (

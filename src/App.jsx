@@ -10,6 +10,7 @@ import Entry from './components/Entry'
 import State from './components/State'
 import TernaryOperator from "./components/TernaryOperator";
 import ComplexState from './components/ComplexState'
+import Forms from './components/Forms'
 import CopyRight from './components/CopyRight'
 import { useState, useEffect } from 'react'
 
@@ -60,6 +61,7 @@ function App() {
     <State/>
     <TernaryOperator/>
     <ComplexState/>
+    <Forms/>
     <CopyRight/>
     
     </>
