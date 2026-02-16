@@ -13,7 +13,7 @@ function Joke(props) {
       
       <p className="text-zinc-400 text-sm font-mono mb-2 uppercase tracking-widest">The Punchline:</p>
     { isShown && <p className="text-lg text-blue-400 italic font-medium">"{props.punchline}"</p>}
-      <button onClick={toggleShown}>Show</button>
+      <button className='jokes' onClick={toggleShown}>Show</button>
     </div>
   )
 }
