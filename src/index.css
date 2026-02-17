@@ -125,9 +125,9 @@ header > h1{
 }
 
 .jokes{
-  background-color: #073ceb;
+  /* background-color: #073ceb; */
   color: #f9f9f9;
   padding: 7px 15px;
-  border-radius: 10%;
-  border: 1px solid #F55A5A;
+  /* border-radius: 10%; */
+  /* border: 1px solid #F55A5A; */
 }

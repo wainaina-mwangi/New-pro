@@ -22,9 +22,16 @@ function Joke(props) {
           "{props.punchline}"
         </p>
       )}
-      <button className="jokes" onClick={toggleShown}>
+      {!isShown && <p className="jokes" onClick={toggleShown}>
         Show punchline
-      </button>
+      </p>
+      }
+     { isShown && <p className="jokes" onClick={toggleShown}>
+        hide punchline
+      </p>
+      } 
+
+      <hr />
     
 
       
