@@ -2,16 +2,7 @@ import React, { useState } from "react";
 
 function Joke(props) {
   const [isShown, setIsShown] = useState(false);
-  const [Count, setCount] = useState(0);
-  function add() {
-    setCount((prevCount) => prevCount + 1);
-  }
-  function sub() {
-    setCount((prevCount) => prevCount - 1);
-  }
-  // function res() {
-  //   setCount(count = 0);
-  // }
+  
 
   function toggleShown() {
     setIsShown((prevShown) => !prevShown);
@@ -34,12 +25,9 @@ function Joke(props) {
       <button className="jokes" onClick={toggleShown}>
         Show
       </button>
+    
 
-      <div>
-        <button onClick={sub}>-</button>
-        <p>{Count}</p>
-        <button onClick={add}>+</button>
-      </div>
+      
     </div>
   );
 }
