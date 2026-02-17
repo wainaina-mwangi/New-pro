@@ -23,7 +23,7 @@ function Joke(props) {
         </p>
       )}
       <button className="jokes" onClick={toggleShown}>
-        Show
+        Show punchline
       </button>
     
 

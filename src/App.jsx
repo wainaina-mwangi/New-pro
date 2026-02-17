@@ -13,6 +13,7 @@ import ComplexState from './components/ComplexState'
 import Forms from './components/Forms'
 import CopyRight from './components/CopyRight'
 import { useState, useEffect } from 'react'
+import ConditionalRendering from './components/ConditionalRendering'
 
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
     <TernaryOperator/>
     <ComplexState/>
     <Forms/>
+    <ConditionalRendering/>
     <CopyRight/>
     
     </>
