@@ -1,73 +1,66 @@
-import React from 'react'
-import Rcards from './components/Rcards'
-import Navbar from './components/Navbar'
-import Props from './components/Props'
-import Joke from './components/Joke'
-import Map from './components/Map'
-import LanguageList from './components/LanguageList'
-import Header from './components/Header'
-import Entry from './components/Entry'
-import State from './components/State'
+import React from "react";
+import Rcards from "./components/Rcards";
+import Navbar from "./components/Navbar";
+import Props from "./components/Props";
+import Joke from "./components/Joke";
+import Map from "./components/Map";
+import LanguageList from "./components/LanguageList";
+import Header from "./components/Header";
+import Entry from "./components/Entry";
+import State from "./components/State";
 import TernaryOperator from "./components/TernaryOperator";
-import ComplexState from './components/ComplexState'
-import Forms from './components/Forms'
-import CopyRight from './components/CopyRight'
-import { useState, useEffect } from 'react'
-import ConditionalRendering from './components/ConditionalRendering'
-
+import ComplexState from "./components/ComplexState";
+import Forms from "./components/Forms";
+import CopyRight from "./components/CopyRight";
+import { useState, useEffect } from "react";
+import LandingPage from "./components/LandingPage";
+import StatCounter from "./components/StatCounter";
 
 function App() {
-
   return (
     <>
-    
-    <Navbar/>
-    <Props 
-    name ="Erastus Waianiana"
-    task ="Learning React"
-    version="version 19 "
-    />
-    <Props 
-    name ="Sandra Kaunda"
-    task ="Learning React"
-    version="version 18 "
-    />
-    <Joke 
-    setup="Why did the React component lose its job"
-    punchline="Because it didn't have any 'props' to show for its work!"
-    // non-strings props
-    upVotes={10}
-    isPun={true}
-    />
-    <Joke 
-     setup="How do you comfort a JavaScript bug?"
-    punchline="You console it!"
-    // non-strings props
-    upVotes={10}
-    isPun={true}
-    />
-    <Joke 
-     setup="Why was the developer unhappy at their new job?"
-     punchline="They wanted a 'View' but the boss only gave them 'React-ion"
-     // non-strings props
-    upVotes={10}
-    isPun={true}
-
-    />
-    <Map/>
-    <LanguageList/>
-    <Rcards/>
-    <Header/>
-    <Entry/>
-    <State/>
-    <TernaryOperator/>
-    <ComplexState/>
-    <Forms/>
-    <ConditionalRendering/>
-    <CopyRight/>
-    
+      <Navbar />
+      <Props
+        name="Erastus Waianiana"
+        task="Learning React"
+        version="version 19 "
+      />
+      <Props name="Sandra Kaunda" task="Learning React" version="version 18 " />
+      <Joke
+        setup="Why did the React component lose its job"
+        punchline="Because it didn't have any 'props' to show for its work!"
+        // non-strings props
+        upVotes={10}
+        isPun={true}
+      />
+      <Joke
+        setup="How do you comfort a JavaScript bug?"
+        punchline="You console it!"
+        // non-strings props
+        upVotes={10}
+        isPun={true}
+      />
+      <Joke
+        setup="Why was the developer unhappy at their new job?"
+        punchline="They wanted a 'View' but the boss only gave them 'React-ion"
+        // non-strings props
+        upVotes={10}
+        isPun={true}
+      />
+      <Map />
+      <LanguageList />
+      <Rcards />
+      <Header />
+      <Entry />
+      <State />
+      <TernaryOperator />
+      <ComplexState />
+      <Forms />
+      <LandingPage />
+      <StatCounter />
+      <CopyRight />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -22,16 +22,12 @@ function Joke(props) {
           "{props.punchline}"
         </p>
       )}
-      {!isShown && <p className="jokes" onClick={toggleShown}>
-        Show punchline
-      </p>
-      }
-     { isShown && <p className="jokes" onClick={toggleShown}>
-        hide punchline
-      </p>
-      } 
+     <p className="jokes" onClick={toggleShown}>{isShown ? "hide" : "show"} punchline</p>
 
-      <hr />
+    
+     
+
+      <hr  className="text-white"/>
     
 
       
